@@ -2,7 +2,13 @@
 
 # Apuntes GIT
 
-## initializing a repo
+
+## ¿Qué es Git?
+Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+
+
+### Inicializar un repositorio
 
 ```sh
 $ git init
@@ -61,3 +67,5 @@ $ git config --list --global
 ```sh
 $ git diff
 ```
+
+Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
