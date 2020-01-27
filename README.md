@@ -1,5 +1,6 @@
 <img src="https://raw.githubusercontent.com/aledc7/git/master/git1.png" width="100">
 
+# Apuntes GIT
 
 ## initializing a repo
 
