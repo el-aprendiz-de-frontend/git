@@ -14,10 +14,15 @@ Git es un **software de control de versiones** diseñado por Linus Torvalds, pen
 $ git init
 ```
 
-## showing the status of the repo
+## Añadir fichero o ficheros al STAGE
 
 ```sh
-$ git status
+# Añadimos un único fichero
+$ git add nombre_fichero
+
+
+# Añadimos todos los ficheros 
+$ git add .
 ```
 
 ## adding content or changes to be tracked in a repo
@@ -66,6 +71,11 @@ $ git config --list --global
 
 ```sh
 $ git diff
+```
+
+```console
+foo@bar:~$ whoami
+foo
 ```
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
