@@ -105,8 +105,8 @@ $ git log —stat
 ### Comandos que podemos usar con el STAGE
 
 #### Listados de stages
+
 ```sh
-# Mostrar en el log los ficheros que se han modificado
 $ git stash list
 ```
 <img src="/images/11-git-stage-list.jpg" width="500">
