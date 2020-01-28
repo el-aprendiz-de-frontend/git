@@ -171,6 +171,11 @@ $ git config --global user.name "tu_nombre"
 ```
 
 ```sh
+# Establecer editor por defecto para GIT
+$ git config --global core.editor "code --wait"
+```
+
+```sh
 # Abrir configuración de GIT en nuestro editor por defecto
 $ git config --global -e
 ```
