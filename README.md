@@ -49,7 +49,8 @@ $ git add .
 ### Quitar ficheros del STAGE 
 
 ```sh
-# Sin eliminarlos del disco
+# Sin eliminarlos del disco. 
+# Mueve los archivos que le indiquemos al estado Untracked.
 $ git rm --cached  "nombre_fichero" 
 
 # Ojo!! Sel elimina el fichero del disco
