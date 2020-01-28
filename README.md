@@ -92,6 +92,6 @@ $ git status
 ```sh
 $ git log --pretty=oneline --abbrev-commit
 ```
-
+<img src="/images/09-log-one-line.jpg" width="400">
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
