@@ -58,6 +58,12 @@ $ git fetch
 ```
 <img src="/images/06-git-fetch.jpg" width="400">
 
+### Traer los cambios del repositorio LOCAL a nuestro directorio de trabajo
+
+```sh
+$ git pull
+```
+<img src="/images/08-git-pull.jpg" width="400">
 
 
 ### Comprobar el estado de la BD de GIT
