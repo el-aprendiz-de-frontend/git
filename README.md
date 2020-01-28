@@ -54,12 +54,9 @@ $ git push
 ### Traer los cambios del repositorio REMOTO al repositorio LOCAL
 
 ```sh
-// git fetch trae los cambios, pero los deja en otro branch, hasta que se hace el git merge para traerlos al branch local.
 $ git fetch
 ```
-<img src="/images/06-git-push.jpg" width="400">
-
-
+<img src="/images/06-git-fetch.jpg" width="400">
 
 
 
