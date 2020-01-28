@@ -97,7 +97,7 @@ $ git log --pretty=oneline --abbrev-commit
 ```sh
 $ git log —stat
 ```
-<img src="/images/10-git-log-stat.jpg" width="400">
+<img src="/images/10-git-log-stat.jpg" width="500">
 
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
