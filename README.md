@@ -7,14 +7,12 @@
 Git es un **software de control de versiones** diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
 
-
 ### Inicializar un repositorio
 
 ```sh
 $ git init
 ```
 <img src="/images/01-git-init.jpg" width="400">
-
 
 ### Clonar repositorio remoto a local
 
@@ -34,6 +32,13 @@ $ git add "nombre_fichero"
 $ git add .
 ```
 <img src="/images/02-git-add.jpg" width="400">
+
+### Quitar ficheros del STAGE sin eliminarlos del disco
+
+```sh
+$ git rm --cached  "nombre_fichero"
+```
+
 
 ### Añadir los cambios al repositorio LOCAL
 
