@@ -146,5 +146,13 @@ $ git clean --dry-run
 ```
 <img src="/images/13-git-clean-dry.jpg" width="180">
 
+## Configuración de GIT
+
+```sh
+# Configuración GIT
+$ git config --list
+```
+
+
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
