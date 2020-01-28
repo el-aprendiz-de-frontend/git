@@ -63,19 +63,15 @@ $ git fetch
 ```sh
 $ git pull
 ```
+
 <img src="/images/08-git-pull.jpg" width="400">
+<img src="/images/07-git-fetch-merge.jpg" width="400">
 
 
 ### Comprobar el estado de la BD de GIT
 
 ```sh
 $ git status
-```
-
-
-
-
-
 ```
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
