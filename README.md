@@ -149,8 +149,13 @@ $ git clean --dry-run
 ## Configuración de GIT
 
 ```sh
-# Configuración GIT
+# Visualizar la configuración de GIT
 $ git config --list
+```
+
+```sh
+# Visualizar donde esta almacenda la configuration de Git
+$ git config --list --show-origin
 ```
 
 
