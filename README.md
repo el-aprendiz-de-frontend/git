@@ -50,6 +50,19 @@ $ git push
 ```
 <img src="/images/05-git-push.jpg" width="400">
 
+
+### Traer los cambios del repositorio REMOTO al repositorio LOCAL
+
+```sh
+// git fetch trae los cambios, pero los deja en otro branch, hasta que se hace el git merge para traerlos al branch local.
+$ git fetch
+```
+<img src="/images/06-git-push.jpg" width="400">
+
+
+
+
+
 ### Comprobar el estado de la BD de GIT
 
 ```sh
