@@ -57,7 +57,7 @@ $ git rm --force  "nombre_fichero"
 ```
 
 ```sh
-# Quitar todos los ficheros del stage con RESET
+# Quitar archivos del estado Staged para devolverlos a su estado anterior. Si los archivos venían de Unstaged, vuelven allí. Y lo mismo se venían de Untracked.
 $ git reset HEAD 
 ```
 
