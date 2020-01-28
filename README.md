@@ -27,7 +27,7 @@ $ git add .
 ```
 <img src="/images/02-git-add.jpg" width="400">
 
-### Añadir los cambios al respositorio LOCAL
+### Añadir los cambios al repositorio LOCAL
 
 ```sh
 $ git status
