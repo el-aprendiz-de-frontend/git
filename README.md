@@ -61,7 +61,7 @@ $ git fetch
 ### Traer los cambios del repositorio LOCAL a nuestro directorio de trabajo
 
 ```sh
-$ git pull
+$ git pull  // Es equivalente a hacer un git fetch origin && git merge origin/master
 ```
 
 <img src="/images/08-git-pull.jpg" width="400">
