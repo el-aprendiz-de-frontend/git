@@ -121,7 +121,7 @@ $ git stash branch "nombre_rama"
 ```sh
 $ git stash list
 ```
-<img src="/images/11-git-stage-list.jpg" width="250">
+<img src="/images/11-git-stage-list.jpg" width="280">
 
 ### Limpiar ficheros Untracked
 ```sh
