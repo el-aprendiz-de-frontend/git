@@ -11,6 +11,7 @@ Git es un **software de control de versiones** diseñado por Linus Torvalds, pen
 ```sh
 $ git --version
 ```
+<img src="/images/12-git-version.jpg" width="200">
 
 ### Inicializar un repositorio
 
