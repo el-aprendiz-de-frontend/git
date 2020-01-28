@@ -44,8 +44,8 @@ $ git rm --force  "nombre_fichero"
 ```
 
 ```sh
-  # Quitar todos los ficheros del stage con RESET
-  $ git reset HEAD 
+# Quitar todos los ficheros del stage con RESET
+$ git reset HEAD 
 ```
 
 ### Añadir los cambios al repositorio LOCAL
