@@ -109,5 +109,7 @@ $ git log —stat
 # Mostrar en el log los ficheros que se han modificado
 $ git stash list
 ```
+<img src="/images/11-git-stage-list.jpg" width="500">
+
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
