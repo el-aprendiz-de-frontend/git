@@ -87,4 +87,11 @@ $ git pull  // Es equivalente a hacer un git fetch origin && git merge origin/ma
 $ git status
 ```
 
+### Ver el log con los commits
+
+```sh
+$ git log --pretty=oneline --abbrev-commit
+```
+
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
