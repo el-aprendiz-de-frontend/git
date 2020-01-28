@@ -109,7 +109,7 @@ $ git log —stat
 ```sh
 $ git stash list
 ```
-<img src="/images/11-git-stage-list.jpg" width="500">
+<img src="/images/11-git-stage-list.jpg" width="400">
 
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
