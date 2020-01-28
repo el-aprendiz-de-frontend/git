@@ -25,6 +25,7 @@ $ git add nombre_fichero
 # Añadimos todos los ficheros 
 $ git add .
 ```
+<img src="/images/02-git-add.jpg" width="400">
 
 ### Comprobar el estado de la BD de GIT
 
