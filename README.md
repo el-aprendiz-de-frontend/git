@@ -43,6 +43,10 @@ $ git rm --cached  "nombre_fichero"
 $ git rm --force  "nombre_fichero" 
 ```
 
+```sh
+  # Quitar todos los ficheros del stage
+  $ git reset HEAD 
+```
 
 ### Añadir los cambios al repositorio LOCAL
 
