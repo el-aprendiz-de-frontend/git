@@ -30,7 +30,7 @@ $ git add .
 ### Añadir los cambios al repositorio LOCAL
 
 ```sh
-$ git status
+$ git commit -m "mensaje"
 ```
 <img src="/images/03-git-commit.jpg" width="400">
 
