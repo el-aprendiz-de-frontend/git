@@ -133,7 +133,7 @@ $ git stash list
 ```sh
 $ git clean --dry-run
 ```
-<img src="/images/13-git-clean-dry.jpg" width="220">
+<img src="/images/13-git-clean-dry.jpg" width="180">
 
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
