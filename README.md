@@ -108,6 +108,10 @@ $ git log —stat
 ```sh
 $ git stash pop
 ```
+#### Eliminar del STAGE
+```sh
+$ git stash drop
+```
 #### Pasar los cambios del STAGE a una rama 
 ```sh
 $ git stash branch "nombre_rama" 
