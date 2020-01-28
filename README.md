@@ -54,7 +54,7 @@ $ git add .
 $ git rm --cached  "nombre_fichero" 
 
 # Ojo!! Se elimina el fichero del disco. 
-# Git guarda el registro de la existencia de los archivos, por lo que podremos recuperarlos si es necesario.
+# Git guarda el registro de la existencia de los archivos, podríamos recuperarlos.
 $ git rm --force  "nombre_fichero" 
 ```
 
