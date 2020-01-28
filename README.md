@@ -127,13 +127,13 @@ $ git stash branch "nombre_rama"
 ```sh
 $ git stash list
 ```
-<img src="/images/11-git-stage-list.jpg" width="280">
+<img src="/images/11-git-stage-list.jpg" width="290">
 
 ### Limpiar ficheros Untracked
 ```sh
 $ git clean --dry-run
 ```
-<img src="/images/13-git-clean-dry.jpg" width="280">
+<img src="/images/13-git-clean-dry.jpg" width="220">
 
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
