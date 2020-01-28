@@ -13,6 +13,7 @@ Git es un **software de control de versiones** diseñado por Linus Torvalds, pen
 ```sh
 $ git init
 ```
+<img src="/images/01-git-init.jpg" width="400">
 
 ### Añadir fichero o ficheros al STAGE
 
