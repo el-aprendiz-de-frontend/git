@@ -180,6 +180,9 @@ $ git config --global core.editor "code --wait"
 $ git config --global -e
 ```
 
-
+```sh
+# Activar autocorrección (Ejemplo: git stats ---> git status
+$ git config --global help.autocorrect 1
+```
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
