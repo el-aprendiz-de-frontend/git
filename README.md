@@ -15,6 +15,14 @@ $ git init
 ```
 <img src="/images/01-git-init.jpg" width="400">
 
+
+### Clonar repositorio remoto a local
+
+```sh
+$ git clone "https_o_ssh"
+```
+<img src="/images/04-git-clone.jpg" width="400">
+
 ### Añadir fichero o ficheros al STAGE
 
 ```sh
@@ -34,12 +42,13 @@ $ git commit -m "mensaje"
 ```
 <img src="/images/03-git-commit.jpg" width="400">
 
-### Clonar repositorio remoto a local
+
+### Subir los cambios del repositorio LOCAL al repositorio REMOTO
 
 ```sh
-$ git clone "https_o_ssh"
+$ git push
 ```
-<img src="/images/04-git-clone.jpg" width="400">
+<img src="/images/05-git-push.jpg" width="400">
 
 ### Comprobar el estado de la BD de GIT
 
