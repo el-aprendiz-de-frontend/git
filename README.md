@@ -24,6 +24,8 @@ $ git --version
 ### Inicializar un repositorio
 
 ```sh
+# Genera una nueva carpeta oculta llamada .git con toda la base de datos 
+# con cambios atómicos en nuestro proyecto.
 $ git init
 ```
 <img src="/images/01-git-init.jpg" width="400">
