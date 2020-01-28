@@ -53,7 +53,8 @@ $ git add .
 # Mueve los archivos que le indiquemos al estado Untracked.
 $ git rm --cached  "nombre_fichero" 
 
-# Ojo!! Sel elimina el fichero del disco
+# Ojo!! Se elimina el fichero del disco. 
+# Git guarda el registro de la existencia de los archivos, por lo que podremos recuperarlos si es necesario.
 $ git rm --force  "nombre_fichero" 
 ```
 
