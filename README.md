@@ -27,6 +27,13 @@ $ git add .
 ```
 <img src="/images/02-git-add.jpg" width="400">
 
+### Añadir los cambios al respositorio LOCAL
+
+```sh
+$ git status
+```
+<img src="/images/03-git-commit.jpg" width="400">
+
 ### Comprobar el estado de la BD de GIT
 
 ```sh
