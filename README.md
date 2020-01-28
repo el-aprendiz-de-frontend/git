@@ -33,10 +33,14 @@ $ git add .
 ```
 <img src="/images/02-git-add.jpg" width="400">
 
-### Quitar ficheros del STAGE sin eliminarlos del disco
+### Quitar ficheros del STAGE 
 
 ```sh
-$ git rm --cached  "nombre_fichero"
+# Sin eliminarlos del disco
+$ git rm --cached  "nombre_fichero" 
+
+# Ojo!! Sel elimina el fichero del disco
+$ git rm --force  "nombre_fichero" 
 ```
 
 
