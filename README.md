@@ -44,7 +44,7 @@ $ git rm --force  "nombre_fichero"
 ```
 
 ```sh
-  # Quitar todos los ficheros del stage
+  # Quitar todos los ficheros del stage con RESET
   $ git reset HEAD 
 ```
 
