@@ -104,12 +104,16 @@ $ git log —stat
 
 ### Comandos que podemos usar con el STAGE
 
-#### Listados de stages
+#### Guardar en el STAGE
+```sh
+$ git stash pop
+```
+#### Listados de STAGES
 
 ```sh
 $ git stash list
 ```
-<img src="/images/11-git-stage-list.jpg" width="400">
+<img src="/images/11-git-stage-list.jpg" width="250">
 
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
