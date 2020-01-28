@@ -170,4 +170,11 @@ $ git config --global  user.email"tu@email.com"
 $ git config --global user.name "tu_nombre"
 ```
 
+```sh
+# Abrir configuración de GIT en nuestro editor por defecto
+$ git config --global -e
+```
+
+
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
