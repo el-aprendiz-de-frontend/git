@@ -120,6 +120,10 @@ $ git log —stat
 ```
 <img src="/images/10-git-log-stat.jpg" width="500">
 
+```sh
+# Mostrar el log sin comits con merge
+$ git log --oneline --no-merges
+```
 
 ### Comandos que podemos usar con el STAGE
 
