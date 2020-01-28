@@ -40,17 +40,16 @@ $ git commit -m "mensaje"
 $ git status
 ```
 
-### adding all files from current directory
+### Clonar repositorio remoto a local
 
 ```sh
-$ git add .
+$ git clone "https_o_ssh"
 ```
+<img src="/images/04-git-clone.jpg" width="400">
 
-## creating a history point for the files set under control
 
-```sh
-$ git commit -m "add initial code"
-```
+
+
 
 ## showing the repo's history of commits and branches
 
