@@ -34,12 +34,6 @@ $ git commit -m "mensaje"
 ```
 <img src="/images/03-git-commit.jpg" width="400">
 
-### Comprobar el estado de la BD de GIT
-
-```sh
-$ git status
-```
-
 ### Clonar repositorio remoto a local
 
 ```sh
@@ -47,7 +41,11 @@ $ git clone "https_o_ssh"
 ```
 <img src="/images/04-git-clone.jpg" width="400">
 
+### Comprobar el estado de la BD de GIT
 
+```sh
+$ git status
+```
 
 
 
