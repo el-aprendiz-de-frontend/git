@@ -123,5 +123,10 @@ $ git stash list
 ```
 <img src="/images/11-git-stage-list.jpg" width="250">
 
+### Limpiar ficheros Untracked
+```sh
+$ git clean --dry-run
+```
+
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
