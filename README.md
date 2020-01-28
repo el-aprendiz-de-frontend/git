@@ -163,10 +163,11 @@ $ git config --list --show-origin
 ```sh
 # Configurar tu email para GIT de forma global
 $ git config --global  user.email"tu@email.com"
+```
 
 ```sh
 # Configurar tu nombre de usuario para GIT de forma global
 $ git --global user.name "tu_nombre"
-
+```
 
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
