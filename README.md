@@ -102,4 +102,12 @@ $ git log —stat
 <img src="/images/10-git-log-stat.jpg" width="500">
 
 
+### Comandos que podemos usar con el STAGE
+
+#### Listados de stages
+```sh
+# Mostrar en el log los ficheros que se han modificado
+$ git stash list
+```
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
