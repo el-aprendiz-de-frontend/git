@@ -74,7 +74,8 @@ $ git fetch
 ### Traer los cambios del repositorio LOCAL a nuestro directorio de trabajo
 
 ```sh
-$ git pull  // Es equivalente a hacer un git fetch origin && git merge origin/master
+# Es equivalente a hacer un git fetch origin && git merge origin/master
+$ git pull
 ```
 
 <img src="/images/08-git-pull.jpg" width="400">
@@ -95,6 +96,7 @@ $ git log --pretty=oneline --abbrev-commit
 <img src="/images/09-git-log-one-line.jpg" width="400">
 
 ```sh
+# Mostrar en el log los ficheros que se han modificado
 $ git log —stat
 ```
 <img src="/images/10-git-log-stat.jpg" width="500">
