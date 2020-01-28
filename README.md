@@ -19,7 +19,7 @@ $ git init
 
 ```sh
 # Añadimos un único fichero
-$ git add nombre_fichero
+$ git add "nombre_fichero"
 
 
 # Añadimos todos los ficheros 
