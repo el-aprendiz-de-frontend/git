@@ -201,4 +201,10 @@ $ git config --global core.excludesFile ~/.gitignore
 $ git config --global fetch.prune true
 ```
 
+```sh
+# Cambiar la herramienta por defecto para hacer los "diff" y los "merge"
+$ git config --global diff.tool "nombre_herramienta"
+$ git config --global merge.tool "nombre_herramienta"
+```
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
