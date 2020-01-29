@@ -189,4 +189,10 @@ $ git config --global -e
 $ git config --global help.autocorrect 1
 ```
 
+```sh
+# Crear un .gitignore a nivel global
+$ touch ~/.gitignore
+$ git config --global core.excludesFile ~/.gitignore
+```
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
