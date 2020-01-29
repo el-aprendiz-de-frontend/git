@@ -207,4 +207,11 @@ $ git config --global diff.tool "nombre_herramienta"
 $ git config --global merge.tool "nombre_herramienta"
 ```
 
+## Alias utiles
+
+```sh
+# Eliminar ramas locales que ya han sido mergeadas en master
+# Si por equivoacion eliminamos master ---> git checkout -b master origin/master
+$ git branch --merged master | grep -v "master" | xargs -n 1 git branch -d
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
