@@ -225,8 +225,14 @@ $ git branch --merged master | grep -v "master" | xargs -n 1 git branch -d
 $ git remote prune origin
 # Para ver que ramas se podrian eliminar al ejecutar un "git remote prune origin"
 $ git remote prune origin --dry-run
-
 ```
+
+```sh
+# Mostrar todos los alias de GIT que tenemos configurados
+$ git config -l | grep alias | sed 's/^alias\.//g'
+```
+
+
 
 
 
