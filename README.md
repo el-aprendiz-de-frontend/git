@@ -67,6 +67,11 @@ $ git rm --force  "nombre_fichero"
 $ git reset HEAD 
 ```
 
+```sh
+# Volver al estado anterior los ficheros que tengamos como STAGE
+$ git checkout .
+```
+
 ### Añadir los cambios al repositorio LOCAL
 
 ```sh
