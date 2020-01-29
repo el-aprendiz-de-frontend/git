@@ -195,4 +195,10 @@ $ touch ~/.gitignore
 $ git config --global core.excludesFile ~/.gitignore
 ```
 
+```sh
+# Eliminar ramas obsoletas que ya no se encuentran en el reposotio REMOTO,
+# al hacer un PULL o FETCH
+$ git config --global fetch.prune true
+```
+
 Descarga gratuita del libro de GIT: https://git-scm.com/book/es/v2
