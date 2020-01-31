@@ -166,7 +166,7 @@ $ git clean --dry-run
 
 
 ```sh
-# Comprobar que ficheros se eliminaran, no borra nada de disco.
+# Ojo!! Elimina los ficheros UNTRACKED
 $ git clean -f -d
 ```
 
