@@ -87,7 +87,7 @@ $ git commit -m "mensaje"
 $ git commit -am "mensaje"
 ```
 
-### Deshacer los cambios del repositorio LOCAL (UnCommit)
+### Deshacer los cambios del repositorio LOCAL (The Soft Way)
 
 ```sh
 # Moves the added files in last commit back to staged area
@@ -103,6 +103,22 @@ $ git reset --soft HEAD^^
 # Discards last n commits and HEAD points n commits back
 $ git reset --soft HEAD~n
 ```
+
+### Deshacer los cambios del repositorio LOCAL (The Hard Way)
+
+```sh
+# Moves the added files in last commit back to staged area
+$ git reset --hard HEAD^
+```
+
+```sh
+# Discards last two commits and HEAD points two commits back
+$ git reset --hard HEAD^^
+```
+
+```sh
+# Discards last n commits and HEAD points n commits back
+$ git reset --hard HEAD~n
 
 ### Subir los cambios del repositorio LOCAL al repositorio REMOTO (Push)
 
