@@ -129,6 +129,11 @@ $ git log —stat
 # Mostrar el log sin comits con merge
 $ git log --oneline --no-merges
 ```
+### Ver el log comprendido entre varias fechas
+```sh
+# Mostrar cambios entre las fechas feb 10 2016 - feb 19 2016
+git log --since='FEB 10 2016' --until='FEB 19 2016'
+```
 
 ### Reescribir el último mensaje de commit
 ```sh
