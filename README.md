@@ -135,7 +135,7 @@ $ git log --oneline --no-merges
 git log --since='FEB 10 2016' --until='FEB 19 2016'
 ```
 
-### Mostrar los commits que se hicieron que incluyeran la palabra...
+### Mostrar en el log los commits que se hicieron que incluyeran la palabra...
 ```sh
 git log -S "config.menu_items"
 ```
