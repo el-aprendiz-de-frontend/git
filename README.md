@@ -194,6 +194,11 @@ $ git clean -f -d
 ## Configuración de GIT
 
 ```sh
+# Abrir con VSCODE el fichero de configuración global de GIT
+code ~/.gitconfig
+```
+
+```sh
 # Visualizar la configuración de GIT
 $ git config --list
 ```
