@@ -82,6 +82,11 @@ $ git commit -m "mensaje"
 ```
 <img src="/images/03-git-commit.jpg" width="400">
 
+```sh
+# Podemos hacer el commit sin previamente hacer un ADD (solo si el fihcero ya esta en la BDD de Git)
+$ git commit -am "mensaje"
+```
+
 
 ### Subir los cambios del repositorio LOCAL al repositorio REMOTO
 
