@@ -135,6 +135,17 @@ $ git log --oneline --no-merges
 git log --since='FEB 10 2016' --until='FEB 19 2016'
 ```
 
+### Visualizar changelog por usuario de cambios
+```sh
+# Cambios que han pasado entre mi commit (ID) y HEAD
+git shortlog <commit>..HEAD
+```
+
+```sh
+# Mostrar changelog de los últimos 20 cambios más recientes
+git shortlog HEAD~20..
+```
+
 ### Reescribir el último mensaje de commit
 ```sh
 # Si nos equivocamos al hacer un commit en el mensaje, podemos volver a reescribirlo
