@@ -135,6 +135,11 @@ $ git log --oneline --no-merges
 git log --since='FEB 10 2016' --until='FEB 19 2016'
 ```
 
+### Mostrar los commits que se hicieron que incluyeran la palabra...
+```sh
+git log -S "config.menu_items"
+```
+
 ### Visualizar changelog por usuario de cambios
 ```sh
 # Cambios que han pasado entre mi commit (ID) y HEAD
