@@ -130,6 +130,12 @@ $ git log —stat
 $ git log --oneline --no-merges
 ```
 
+### Reescribir el último mensaje de commit
+```sh
+# Si nos equivocamos al hacer un commit en el mensaje, podemos volver a reescribirlo
+$ git commit -v --amend
+```
+
 ### Comandos que podemos usar con el STAGE
 
 #### Guardar en el STAGE
