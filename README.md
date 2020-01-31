@@ -52,7 +52,7 @@ $ git add --all
 ```
 <img src="/images/02-git-add.jpg" width="400">
 
-### Quitar ficheros del STAGE 
+### Quitar ficheros del STAGE (rm)
 
 ```sh
 # Sin eliminarlos del disco. 
@@ -75,7 +75,7 @@ $ git reset HEAD
 $ git checkout .
 ```
 
-### Añadir los cambios al repositorio LOCAL
+### Añadir los cambios al repositorio LOCAL (Commit)
 
 ```sh
 $ git commit -m "mensaje"
@@ -87,8 +87,24 @@ $ git commit -m "mensaje"
 $ git commit -am "mensaje"
 ```
 
+### Deshacer los cambios del repositorio LOCAL (UnCommit)
 
-### Subir los cambios del repositorio LOCAL al repositorio REMOTO
+```sh
+# Moves the added files in last commit back to staged area
+$ git reset --soft HEAD^
+```
+
+```sh
+# Discards last two commits and HEAD points two commits back
+$ git reset --soft HEAD^^
+```
+
+```sh
+# Discards last n commits and HEAD points n commits back
+$ git reset --soft HEAD~n
+```
+
+### Subir los cambios del repositorio LOCAL al repositorio REMOTO (Push)
 
 ```sh
 $ git push
@@ -103,7 +119,7 @@ $ git fetch
 ```
 <img src="/images/06-git-fetch.jpg" width="400">
 
-### Traer los cambios del repositorio LOCAL a nuestro directorio de trabajo
+### Traer los cambios del repositorio LOCAL a nuestro directorio de trabajo (Pull)
 
 ```sh
 # Es equivalente a hacer un git fetch origin && git merge origin/master
