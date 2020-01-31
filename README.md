@@ -105,7 +105,7 @@ $ git reset --soft HEAD~n
 ```
 
 ### Deshacer los cambios del repositorio LOCAL (The Hard Way)
-
+Los cambios realizados en los archivos en los commits posteriores se pierden.
 ```sh
 # Moves the added files in last commit back to staged area
 $ git reset --hard HEAD^
