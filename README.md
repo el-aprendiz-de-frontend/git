@@ -159,9 +159,16 @@ $ git stash list
 
 ### Limpiar ficheros Untracked
 ```sh
+# Comprobar que ficheros se eliminaran, no borra nada de disco.
 $ git clean --dry-run
 ```
 <img src="/images/13-git-clean-dry.jpg" width="180">
+
+
+```sh
+# Comprobar que ficheros se eliminaran, no borra nada de disco.
+$ git clean -f -d
+```
 
 ## Configuración de GIT
 
