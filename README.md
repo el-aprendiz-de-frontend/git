@@ -46,6 +46,9 @@ $ git add "nombre_fichero"
 
 # Añadimos todos los ficheros 
 $ git add .
+
+# tambien podemos usar:
+$ git add --all
 ```
 <img src="/images/02-git-add.jpg" width="400">
 
