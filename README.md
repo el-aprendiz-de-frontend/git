@@ -43,7 +43,6 @@ $ git clone "https_o_ssh"
 # Añadimos un único fichero
 $ git add "nombre_fichero"
 
-
 # Añadimos todos los ficheros 
 $ git add .
 
@@ -128,7 +127,11 @@ $ git push
 ```
 <img src="/images/05-git-push.jpg" width="400">
 
-
+```sh
+# Descartar tu último PUSH
+$ git reset --hard HEAD^ 
+$ git push -f 
+```
 
 ### Traer los cambios del repositorio REMOTO al repositorio LOCAL (Fetch)
 
