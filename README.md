@@ -128,7 +128,7 @@ $ git push
 <img src="/images/05-git-push.jpg" width="400">
 
 
-### Traer los cambios del repositorio REMOTO al repositorio LOCAL
+### Traer los cambios del repositorio REMOTO al repositorio LOCAL (Fetch)
 
 ```sh
 $ git fetch
