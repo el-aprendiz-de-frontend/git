@@ -119,6 +119,7 @@ $ git reset --hard HEAD^^
 ```sh
 # Discards last n commits and HEAD points n commits back
 $ git reset --hard HEAD~n
+```
 
 ### Subir los cambios del repositorio LOCAL al repositorio REMOTO (Push)
 
@@ -126,6 +127,7 @@ $ git reset --hard HEAD~n
 $ git push
 ```
 <img src="/images/05-git-push.jpg" width="400">
+
 
 
 ### Traer los cambios del repositorio REMOTO al repositorio LOCAL (Fetch)
