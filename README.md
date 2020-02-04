@@ -37,6 +37,12 @@ $ git clone "https_o_ssh"
 ```
 <img src="/images/04-git-clone.jpg" width="400">
 
+### Saber desde que URL se ha clonado un repositorio local
+
+```sh
+$ git config --get remote.origin.url
+```
+
 ### Añadir fichero o ficheros al STAGE
 
 ```sh
