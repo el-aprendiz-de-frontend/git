@@ -159,6 +159,15 @@ $ git pull
 <img src="/images/08-git-pull.jpg" width="400">
 <img src="/images/07-git-fetch-merge.jpg" width="400">
 
+### Visualizar las ramas 
+
+```sh
+# Ver solo las ramas locales
+$ git branch
+
+# Ver ramas locales y remotas
+$ git branch -a
+```
 
 ### Comprobar el estado de la BD de GIT
 
