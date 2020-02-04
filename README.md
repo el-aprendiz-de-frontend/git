@@ -41,6 +41,9 @@ $ git clone "https_o_ssh"
 
 ```sh
 $ git config --get remote.origin.url
+
+# Si queremos tener mucha más información:
+$ git remote show origin
 ```
 
 ### Añadir fichero o ficheros al STAGE
