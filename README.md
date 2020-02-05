@@ -159,6 +159,16 @@ $ git pull
 <img src="/images/08-git-pull.jpg" width="400">
 <img src="/images/07-git-fetch-merge.jpg" width="400">
 
+### Crear una rama 
+```sh
+# Crear y hacer checkout de la rama
+$ git checkout -b "nombre_rama"
+
+# Crear y hacer checkout de la rama
+$ git branch "nombre_rama"
+$ git checkout "nombre_rama"
+```
+
 ### Visualizar las ramas 
 
 ```sh
