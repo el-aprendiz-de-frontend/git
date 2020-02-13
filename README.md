@@ -169,6 +169,15 @@ $ git branch "nombre_rama"
 $ git checkout "nombre_rama"
 ```
 
+### Eliminar una rama 
+```sh
+# Si la rama ya ha sido pusheada ("equivale a --delete")
+$ git branch -d "nombre_rama"
+
+# Independientemente de si ha sido pusheada ("equivale a --delete --force")
+$ git branch -D "nombre_rama"
+```
+
 ### Visualizar las ramas 
 
 ```sh
