@@ -169,7 +169,7 @@ $ git branch "nombre_rama"
 $ git checkout "nombre_rama"
 ```
 
-### Eliminar una rama 
+### Eliminar una rama LOCAL
 ```sh
 # Si la rama ya ha sido pusheada ("equivale a --delete")
 $ git branch -d "nombre_rama"
